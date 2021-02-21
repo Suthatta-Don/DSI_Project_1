@@ -44,6 +44,7 @@ According to data analysis, students preferred to take the SAT more than the ACT
 According to the data, it shows that West Virginia's SAT participation increases by 70% but the average score decreases slightly, that opposite of the ACT. Colorado also has this problem, mandatory SAT policy made SAT participation 2018 hit 100% but the score decreases. West Virginia's SAT score is lower than the mean score in both two years (2018-2019) which means West Virginia's has a low score before the new policy.
 
 West Virginia offers free SAT School Day to all students to increases the chance for university admission. Therefore, students in West Virginia should take the test and get more score at 1150 to reach the median score of university admission. West Virginia should make SAT testing to be a part of graduation requirements without free SAT School Day and determine the range of score to graduate and get a free SAT School Day test. The lowest score for graduation should not lower than the mean score of West Virginia in the previous year, and if a student's score reaches the median of university admission they will get the free SAT School Day (return the fund). This new policy will encourage the student to prepare for testing and the school will give more training to the student. 
+
 ---
 ### Datasets
 
@@ -55,15 +56,3 @@ West Virginia offers free SAT School Day to all students to increases the chance
 * [`sat_2019.csv`](./data/sat_2019.csv): 2019 SAT Scores by State which consists of the participation percentage, score for each part and total
 * [`sat_act_by_college.csv`](./data/sat_act_by_college.csv): Range of Accepted ACT & SAT Student by Colleges
 * [`act_2019_ca.csv`](./data/act_2019_ca.csv): ACT Scores in California by School in 2019 (This dataset is used for EDA part only)
-
-### Conclusions and Recommendations
-
-According to data analysis, students preferred to take the SAT more than the ACT, and it seems like the SAT and the ACT will have the same level of preference from student because the average SAT and ACT participation are the same number (nearly 50%). The increased participation rate gives positive effects on the number of test taker, but not on the average score of the test. The participation rate is negative correlated with the average score. Many states are facing this problem such as Colorado and Illinois, including West Virginia. These states have the policy to convince students to take exam namely mandatory SAT testing and free SAT School Day. 
-
-According to the data, it shows that West Virginia's SAT participation increases by 70% but the average score decreases slightly, that opposite of the ACT. Colorado also has this problem, mandatory SAT policy made SAT participation 2018 hit 100% but the score decreases. West Virginia's SAT score is lower than the mean score in both two years (2018-2019) which means West Virginia's has a low score before the new policy.
-
-West Virginia offers free SAT School Day to all students to increases the chance for university admission. Therefore, students in West Virginia should take the test and get more score at 1150 to reach the median score of university admission. West Virginia should make SAT testing to be a part of graduation requirements without free SAT School Day and determine the range of score to graduate and get a free SAT School Day test. The lowest score for graduation should not lower than the mean score of West Virginia in the previous year, and if a student's score reaches the median of university admission they will get the free SAT School Day (return the fund). This new policy will encourage the student to prepare for testing and the school will give more training to the student. 
-
-
-
-
