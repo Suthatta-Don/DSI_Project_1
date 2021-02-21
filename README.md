@@ -60,3 +60,57 @@ West Virginia offers free SAT School Day to all students to increases the chance
 * [`sat_2019.csv`](./data/sat_2019.csv): 2019 SAT Scores by State which consists of the participation percentage, score for each part and total
 * [`sat_act_by_college.csv`](./data/sat_act_by_college.csv): Range of Accepted ACT & SAT Student by Colleges
 * [`act_2019_ca.csv`](./data/act_2019_ca.csv): ACT Scores in California by School in 2019 (This dataset is used for EDA part only)
+
+**Data dictionary**
+
+**1. Data dictionary for dataset named 'total_score'**
+
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|**state**|*object*|total_score|the name of U.S. state| 
+|**participation_act2017**|*float*|total_score|percent of participant in 2017 for ACT|
+|**composite_act2017**|*float*|total_score|ACT composite score in 2017|
+|**participation_act2018**|*float*|total_score|percent of participant in 2018 for ACT|
+|**composite_act2018**|*float*|total_score|ACT composite score in 2018|
+|**participation_act2019**|*float*|total_score|percent of participant in 2019 for ACT|
+|**composite_act2019**|*float*|total_score|ACT composite score in 2019|
+|**participation_sat2017**|*float*|total_score|percent of participant in 2017 for SAT|
+|**reading_writing_sat2017**|*integer*|total_score|average SAT evidence-based reading and writing score in 2017|
+|**math_sat2017**|*integer*|total_score|average SAT math score in 2017|
+|**total_sat2017**|*integer*|total_score|SAT total score in 2017|
+|**participation_sat2018**|*float*|total_score|percent of participant in 2018 for SAT|
+|**reading_writing_sat2018**|*integer*|total_score|average SAT evidence-based reading and writing score in 2018|
+|**math_sat2018**|*integer*|total_score|average SAT math score in 2018|
+|**total_sat2018**|*integer*|total_score|SAT total score in 2018|
+|**participation_sat2019**|*float*|total_score|percent of participant in 2019 for SAT|
+|**reading_writing_sat2019**|*integer*|total_score|average SAT evidence-based reading and writing score in 2019|
+|**math_sat2019**|*integer*|total_score|average SAT math score in 2019|
+|**total_sat2019**|*integer*|total_score|SAT total score in 2019|
+
+**2. Data dictionary for dataset named 'df_uni'**
+
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|**school**|*object*|df_uni|The name of college and university|
+|**number_applicants**|*integer*|df_uni|number of applicants|
+|**accept_rate**|*float*|df_uni|acceptance rate (2018-2019)|
+|**sat_25_75**|*object*|df_uni|SAT 25th-75th percentile (2018-2019)|
+|**act_25_75**|*object*|df_uni|ACT 25th-75th percentile (2018-2019)|
+|**act_25th**|*float*|df_uni|ACT 25th percentile (2018-2019)|
+|**act_75th**|*float*|df_uni|ACT 75th percentile (2018-2019)|
+|**sat_25th**|*float*|df_uni|SAT 25th percentile (2018-2019)|
+|**sat_75th**|*float*|df_uni|SAT 75th percentile (2018-2019)|
+
+**3. Data dictionary for dataset named 'act_ca'**
+
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|**school**|*object*|act_ca|name of high school in California|
+|**district**|*object*|act_ca|name of district in California|
+|**city**|*object*|act_ca|The name of city in California|
+|**enroll12**|*float*|act_ca|enrollment of Grade 12 (2019)|
+|**number_taker**|*float*|act_ca|number of test taker (2019)|
+|**reading**|*float*|act_ca|average ACT reading score (2019)|
+|**english**|*float*|act_ca|average ACT english score (2019)|
+|**math**|*float*|act_ca|average ACT math score (2019)|
+|**science**|*float*|act_ca|average ACT science score (2019)|
